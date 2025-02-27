@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .intro-content {
+    max-width: 500px;
+  }
+  
+  .intro-content h1 {
+    font-size: 4rem;
+    color: #1877f2;
+    margin-bottom: 10px;
+  }
+  
+  .intro-content p {
+    font-size: 1.5rem;
+    color: #1c1e21;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+  }
+  
+  .btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #166fe5;
+  }
+  
+  .link-forgot-password {
+    display: block;
+    margin: 12px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .link-forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .divider {
+    border: 0.5px solid #dddfe2;
+    margin: 20px 0;
+  }
+  
+  .btn-create-account {
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+  }
+  
+  .btn-create-account:hover {
+    background-color: #36a420;
+  }
+  
+  .page-creation-link {
+    font-size: 0.9rem;
+    color: #1c1e21;
+    margin-top: 20px;
+  }
+  
+  .page-creation-link a {
+    color: #1c1e21;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .page-creation-link a:hover {
+    text-decoration: underline;
+  }
